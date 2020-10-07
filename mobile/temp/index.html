@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=0">
+  <title>Mobile</title>
+  <link rel="stylesheet" href="css/normalize.min.css" />
+  <link rel="stylesheet" href="css/utility.css" />
+  <link rel="stylesheet" href="css/mobile-v2.css" />
+  <!-- <link rel="stylesheet" href="css/map.css" /> -->
+  <link rel="stylesheet" href="css/ism.css" />
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="proto-v2">
+
+   <!-- testing -->
+    <div id="console"></div>
+
+  <!-- POLLING -->
+   <div class="page-wrapper polling-page">    
+
+    <div class="content-wrapper">
+      
+      <div class="finding-tix">
+        <b class="polling"></b>      
+        <p class="polling-text">Finding Tickets...</p>
+      </div>
+
+    </div>
+
+  </div>
+    
+
+  <!-- LISTING & ISM -->
+  <div class="page-wrapper list-page">
+
+   
+
+    <header class="page-hdr-wrapper fixed">
+      <div class="page-hdr">
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link menu-link">Menu</a>
+        </div>
+        <div class="hdr-element hdr-info event-info">
+          <h1 class="artist-title">Maroon 5</h1>
+          <span class="event-time">Sun, Apr 7 @ 8:00 PM</span>
+        </div>
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link cart-link">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-controls list-controls cf fixed">
+      <div class="filters-current">
+        <a href="#" class="btn gotoLink" data-link="filters-page">2 Tickets, Any Price</a>
+      </div>
+      <div class="toggle-view">
+        <button class="btn btn-active gotoLink" data-link="listing-area"><img src="img/v2/icon-list-control-active.png" class="list-icon"></button><button class="btn gotoLink" data-link="ism-area"><img src="img/v2/icon-map-control.png" class="map-icon"></button>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->  
+    <!-- REAL ISM GOES HERE                                               -->
+    <div class="ism-area">   
+
+
+
+        <div class="map-frame">
+          <div id="zoom-container" class="zoom-container" style="width: 320px;">
+            <div id="map1a" style="width: 10240px; height: 7680px">
+              <div id="stage-center" style="width: 100px;  height: 100px;  border: 1px solid #f00;  position: absolute;  left: 3115px;  top: 3900px;"></div>
+            </div>
+          </div> <!-- #zoom-container -->
+
+          <div class="map-finder">
+              <span class="spot"></span>
+          </div>  
+           <div class="landmarks" data-allow-scale="false" data-show-at-zoom="0" data-allow-drag="true">
+        <!--<div class="item mark bubble" data-position="2000,2000" data-show-at-zoom="0" data-allow-scale="false"> /* TEMPLATE */
+            <div><div class="panel price">$39+<b class="caret down"></b></div></div>
+        </div>-->
+          </div>
+        </div> <!-- /.map-frame -->
+
+         <!-- testing controllers -->
+        <div class="controls">
+          <div class="zoom-hotspot zoom-in">
+            <div class="zoom-link" title="Zoom In"></div>
+          </div>
+          <div class="zoom-hotspot zoom-out">
+            <div class="zoom-link" title="Zoom Out"></div>
+          </div>
+        </div>
+
+         <!-- Kenny's Bag -->
+        <div class="pre-cart">
+            <div class="face cf">          
+                <a href="#" class="expandable-ctrl"></a>
+                <div class="tray-summary">
+                    <a href="#">Selected seats (<span class="pre-cart-qty">2</span>)</a>
+                    Subtotal: $<span class="pre-cart-total">106.80</span>
+                </div>
+                <button class="btn btn-action btn-add gotoLink" data-link="cart-page">Add to Cart</button>     
+            </div><!-- .face -->  
+
+            <div class="tray">
+             <ul class="no-bullet cart-list">
+              <li class="clone-li cart-item gotoLink" data-link="review-page">
+                <div class="item-img">
+                  <img class="seat-view" src="img/seatview/208_SeatViews_640x427.jpg">
+                </div>
+                <div class="item-info">
+                  <span class="seat-sec">Promenade 208</span>
+                  <span class="seat-row">3</span> <span class="seat-num">2</span>
+                  <span class="seat-dist hide">200</span>
+                  <span class="pc-id hide">200</span>
+                  <a href="#" class="details-link">Seat details</a>  
+                </div>
+                <div class="item-price-edit">
+                  <a href="#" class="remove-link">
+                  <span class="item-price">226.00</span>
+                  Remove</a>
+                </div>
+              </li> 
+            </ul>
+
+            </div><!-- .tray -->
+
+        </div><!-- .pre-cart -->
+
+    </div><!-- /.ism-area -->
+
+  <!-- 
+<li class="picks-item gotoLink" data-link="review-page"><div class="pick-view-wrapper"><img src="img/seatview/208_SeatViews_640x427.jpg" class="seat-view"><div class="mini-map-frame"><img src="img/v2/mini-map.png" class="mini-map"><img src="img/v2/mini-map-indicator.png" class="minimap-indicator" style="left:43%; top:13%;"></div></div><div class="pick-info-wrapper"><div class="seat-info"><h2 class="seat-type">Best Cheap Seats</h2><div class="seat-loc"><span class="seat-sec">Promenade 208</span> <span class="seat-row">3</span> <span class="seat-num">2 Seats</span></div><span class="seat-dist hide">160</span><div class="seat-note"><a href="#">Seat details</a></div></div><div class="price-info gotoLink" data-link="cart-page"><div class="seat-price">$<span class="item-price">53.40</span> ea</div><button class="btn btn-action">Add to Cart</button></div></div></li>
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --> 
+
+      <div class="page-content listing-area">
+        <section class="picks">
+          <header class="section-hdr picks-hdr cf">
+            <h1 class="section-title picks-title">Top picks <a href="#" class="info-link gotoLink" data-link="about-picks-page">Why these?</a></h1>
+            <div class="sort-control">
+              Sort:  <span id="sort-dropdown" class="sort-wrapper">
+                        <select id="dd-sort" class="sort-dd"> 
+                          <option value="lowest">Lowest Price</option>
+                          <option value="highest">Highest Price</option>    
+                          <!--
+                          <option value="closest">Closest to Stage</option>          
+                          <option value="best">Featured</option>
+                          -->
+                        </select>
+                    </span>
+            </div>
+          </header>
+          <ul class="no-bullet picks-list">
+           <!-- <li class="picks-item " data-section="LF" data-row="4" data-price="180.40" data-distance="169" data-section-name="Loge F" data-label="Best Loge Seats" data-group="LF-4-3"><div class="pick-view-wrapper"><img src="img/seatview/LF_SeatViews_640x427.jpg"><div class="mini-map-frame"><img src="img/v2/mini-map.png" class="mini-map"><img src="img/v2/mini-map-indicator.png" class="minimap-indicator" style="left:54%; top:80%;"></div></div><div class="pick-info-wrapper"><div class="seat-info"><h2 class="seat-type">Best Loge Seats</h2><div class="seat-loc"><span class="seat-sec">Loge F</span> <span class="seat-row">Row 4</span> <span class="seat-qty">2 Seats</span></div><div class="seat-note"><span class="seat-resale">Resale</span><a href="#">Seat details</a></div></div><div class="price-info"><div class="seat-price">$180.40 ea</div><button class="btn btn-action">Add to Cart</button></div></div></li> -->
+          </ul>
+        </section>
+
+        <section class="refine-options">
+          <header class="section-hdr">
+            <h1 class="section-title refine-title">Not quite what you're looking for?</h1>          
+          </header>
+          <div class="refine-buttons">
+            <a href="#" class="btn btn-icon btn-filter gotoLink" data-link="filters-page"><span class="btn-text">Adjust your filters for a customized list</span></a>
+            <a href="#" class="btn btn-icon btn-map"><span class="btn-text">Select your own seats on the map</span></a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ABOUT TOP PICKS -->
+  <div class="page-wrapper about-picks-page">
+    
+    <header class="page-hdr-wrapper fixed">
+      <div class="page-hdr">
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link menu-link">Menu</a>
+        </div>
+        <div class="hdr-element hdr-info event-info">
+          <h1 class="artist-title">Maroon 5</h1>
+          <span class="event-time">Sun, Apr 7 @ 8:00 PM</span>
+        </div>
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link cart-link">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-controls back-control cf fixed">
+      <div class="back-link-wrapper">
+        <a href="#" class="back-link gotoLink" data-link="list-page">Back to list</a>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="info-content">
+        <section class="about-picks">
+          <header class="section-hdr about-picks-hdr">
+            <h1 class="section-title">What are Top Picks?</h1>        
+          </header>
+          <p>We first carefully scan through our inventory. Then we remove the seats we feel aren't the best options for you. And finally, we present a list that we think you will like the most.</p>
+          <p>If we haven't found quite what you're looking for:</p>
+        </section>
+
+        <section class="refine-options">
+          <div class="refine-buttons">
+            <a class="btn btn-icon btn-filter gotoLink" data-link="filters-page"><span class="btn-text">Adjust your filters for a customized list</span></a>
+            <a class="btn btn-icon btn-map"><span class="btn-text">Select your own seats on the map</span></a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- FILTERS -->
+  <div class="page-wrapper filters-page">
+    
+    <header class="page-hdr-wrapper fixed">
+      <div class="page-hdr">
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link menu-link">Menu</a>
+        </div>
+        <div class="hdr-element hdr-info event-info">
+          <h1 class="artist-title">Maroon 5</h1>
+          <span class="event-time">Sun, Apr 7 @ 8:00 PM</span>
+        </div>
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link cart-link">Cart</a>
+        </div>
+      </div>
+    </header>
+
+
+    <form id="tix-filter">
+
+    <div class="page-controls filters-controls cf fixed">
+      <header class="filters-hdr">
+        <h1 class="filters-page-title">Filters</h1>
+        <span class="filter-count">1,000+ Tickets</span>      
+      </header>
+      <button class="btn btn-secondary cancel-btn gotoLink" data-link="list-page">Cancel</button>
+      <button class="btn apply-btn gotoLink" data-link="list-page">Apply</button>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="page-content">
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title"># of Tickets</h1>
+          </header>
+          <div class="filter-area filter-qty">
+            <div class="current-qty">
+              <span><input type="number" class="input-text input-qty" id="tixQty" value="2"> Tickets</span>
+            </div>
+            <div class="qty-controls">
+              <button class="btn btn-qty btn-decrease" id="qtyDec">&ndash;</button>
+              <button class="btn btn-qty btn-increase" id="qtyInc">+</button>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title">Price range</h1>
+          </header>
+          <div class="filter-area filter-price">
+            <div class="filter-values">
+              <div class="filter-value min-value"><span class="dollar-sign">$</span><input type="number" class="input-text input-price price-min" id="price-min"></div>
+              <div class="filter-value max-value"><span class="dollar-sign">$</span><input type="number" class="input-text input-price price-max" id="price-max"><span class="plus-sign">&#43;</span></div>
+
+            </div>
+            <div id="slider"></div>
+          </div>
+        </fieldset>
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title">Areas</h1>
+          </header>
+          <div class="filter-area filter-areas">
+            <ul class="no-bullet filter-list areas-list">
+              <li class="filter-item area-item">
+                <div class="area-name">
+                  <input type="checkbox" class="custom-chkbox" id="floor">
+                  <label class="custom-chkbox-label" for="floor">Floor <span class="area-price">$186-$905</span></label>
+                </div>
+                <div class="area-thumb"><img src="img/v2/map-area-thumb.png" class="area-thumb-img"></div>
+              </li>
+              <li class="filter-item area-item">
+                <div class="area-name">
+                  <input type="checkbox" class="custom-chkbox" id="terrace">
+                  <label class="custom-chkbox-label" for="terrace">Terrace <span class="area-price">$90-$155</span></label>
+                </div>
+                <div class="area-thumb"><img src="img/v2/map-area-thumb.png" class="area-thumb-img"></div>
+              </li>
+              <li class="filter-item area-item">
+                <div class="area-name">
+                  <input type="checkbox" class="custom-chkbox" id="club">
+                  <label class="custom-chkbox-label" for="club">Club <span class="area-price">$300-$500</span></label>
+                </div>
+                <div class="area-thumb"><img src="img/v2/map-area-thumb.png" class="area-thumb-img"></div>
+              </li>
+              <li class="filter-item area-item">
+                <div class="area-name">
+                  <input type="checkbox" class="custom-chkbox" id="promenade">
+                  <label class="custom-chkbox-label" for="promenade">Promenade <span class="area-price">$39-$95</span></label>
+                </div>
+                <div class="area-thumb"><img src="img/v2/map-area-thumb.png" class="area-thumb-img"></div>
+              </li>
+            </ul>
+          </div>        
+        </fieldset>
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title">Ticket types</h1>
+          </header>
+          <div class="filter-area filter-tixtypes">
+            <ul class="no-bullet filter-list tixtypes-list">
+              <li class="filter-item tixtype-item">
+                <input type="checkbox" class="custom-chkbox" id="standard">
+                <label class="custom-chkbox-label" for="standard">Standard Admission</label>
+              </li>
+              <li class="filter-item tixtype-item">
+                <input type="checkbox" class="custom-chkbox" id="vip">
+                <label class="custom-chkbox-label" for="vip">VIP Packages</label>
+                <a href="#"><img src="img/v2/icon-info.png" class="icon-info"></a>
+              </li>
+            </ul>
+          </div>        
+        </fieldset>
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title">Show me</h1>
+          </header>
+          <div class="filter-area filter-show">
+            <ul class="no-bullet filter-list show-list">
+              <li class="filter-item show-item">
+                <input type="checkbox" class="custom-chkbox" id="resale-checkbox" checked="checked">
+                <label class="custom-chkbox-label" for="resale"><span class="resale-icon">Resale Seats</span></label>
+              </li>
+              <li class="filter-item show-item">
+                <input type="checkbox" class="custom-chkbox" id="obstructed">
+                <label class="custom-chkbox-label" for="obstructed"><span class="obstructed-icon">Obstructed Seats</span></label>
+              </li>
+            </ul>
+          </div>        
+        </fieldset>
+        <fieldset class="filter-group">
+          <header class="section-hdr filter-hdr">
+            <h1 class="section-title filter-title">Seat attributes</h1>
+          </header>
+          <div class="filter-area filter-attr">
+            <ul class="no-bullet filter-list attr-list">
+              <li class="filter-item attr-item">
+                <input type="checkbox" class="custom-chkbox" id="alcohol">
+                <label class="custom-chkbox-label" for="alcohol"><span class="alcohol-icon">Alcohol Allowed</span></label>
+              </li>
+              <li class="filter-item attr-item">
+                <input type="checkbox" class="custom-chkbox" id="restroom">
+                <label class="custom-chkbox-label" for="restroom"><span class="restroom-icon">Close to Restroom</span></label>
+              </li>
+            </ul>
+          </div>        
+        </fieldset>
+        <div class="reset-filters"><a href="#" id="resetFilters">Reset all</a></div>
+
+      </div>
+    </div>
+
+    </form>
+  
+  </div>
+
+
+  <!-- REVIEW SEAT DETAILS -->
+  <div class="page-wrapper review-page">
+    
+    <header class="page-hdr-wrapper review-hdr-wrapper fixed">
+      <div class="page-hdr">
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link back-link gotoLink" data-link="list-page">Back</a>
+        </div>
+        <div class="hdr-element hdr-info event-info">
+          <h1 class="artist-title">Maroon 5</h1>
+          <span class="event-time">Sun, Apr 7 @ 8:00 PM</span>
+        </div>
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link cart-link">Cart</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper" style="position: relative;">     
+
+      <div class="seat-views">
+        <img src="img/v2/review-view.jpg" class="seat-view">
+        <ul class="no-bullet dot-list">
+          <li><a href="#" class="dot-nav active-dot">&nbsp;</a></li>
+          <li><a href="#" class="dot-nav">&nbsp;</a></li>
+        </ul>
+      </div>
+      <div class="info-content">
+        <section class="seat-info seat-details cf">
+          <h1 class="seat-type">Best Foor Seats</h2>
+          <div class="seat-loc">
+            <span class="seat-sec">Floor 2</span> 
+            <span class="seat-row">Row C</span> 
+            <span class="seat-num">2 Seats</span>
+            <div class="seat-note">Add to cart to see seats</div>
+          </div>
+          <div class="seat-price">
+            <span class="price-breakdown">$<span class="each-item-price">425.00</span> x <span class="tix-qty">2</span></span>
+            <span class="price-total">$<span class="item-price">850.00</span></span>
+          </div>
+          <h2 class="details-title">Details:</h2>
+          <ul class="details-list">
+            <li>About <span class="seat-dist">85</span> ft from stage</li>
+          </ul>
+          <span class="pc-id hide"></span>
+        </section>
+        <div class="mobile-delivery">
+          <p>Available for <span class="free-text">free</span> mobile delivery!</p>
+        </div>
+      </div>
+      <div class="review-action fixed">
+        <button class="btn btn-action btn-add gotoLink" data-link="cart-page">Add to Cart</button>
+        <button class="btn btn-select gotoLink" data-link="list-page">Select</button>
+        <button class="btn btn-remove gotoLink remove-link" data-link="list-page">Remove</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- SHOPPING CART -->
+  <div class="page-wrapper cart-page">
+    
+    <header class="page-hdr-wrapper cart-hdr-wrapper fixed">
+      <div class="page-hdr cart-hdr">
+        <div class="hdr-element hide-text">
+          <a href="#" class="hdr-link back-link gotoLink" data-link="list-page">Back</a>
+        </div>
+        <div class="hdr-element hdr-info cart-info">
+          <div class="cart-title-wrapper">
+            <h1 class="cart-title">Shopping Cart</h1>
+            <span class="cart-qty">3 items</span>
+          </div>
+          <div class="cart-timer">07:55</div>
+        </div>
+        <div class="hdr-element">
+          <a href="#" class="hdr-link cart-link"><span class="cart-count">3</span></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="info-content">
+        <header class="event-info">
+          <h1 class="artist-title">Maroon 5</h1>
+          <span class="event-venue">Amway Center</span>
+          <span class="event-time">Sun, Apr 7 @ 8:00 PM</span>
+        </header>        
+        <section class="cart-items">
+          <ul class="no-bullet cart-list">
+            <li class="cart-item">
+              <div class="item-img">
+                <img src="img/v2/cart-item1.jpg">
+              </div>
+              <div class="item-info">
+                <span class="item-title">
+                  2 Adult Tickets <a href="#" class="details-link">Details</a>
+                </span>
+                <span class="item-details">
+                  Terrace 106<br>
+                  Row 2, Seats 9-10
+                </span>
+              </div>
+              <div class="item-price-edit">
+                <span class="item-price">$226.00</span>
+                <span class="item-edit"><a href="#" class="edit-link">Edit</a></span>
+              </div>
+            </li>
+            <li class="cart-item">
+              <div class="item-img">
+                <img src="img/v2/cart-item2.jpg">
+              </div>
+              <div class="item-info">
+                <span class="item-title">
+                  1 Geico Garage Parking
+                </span>
+                <span class="item-details">
+                  Geico Garage<br>
+                  South St &amp; Hughey Ave
+                </span>
+              </div>
+              <div class="item-price-edit">
+                <span class="item-price">$25.00</span>
+                <span class="item-edit"><a href="#" class="edit-link">Edit</a></span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="cart-section cart-subtotal">
+          <a href="#" class="expandable-ctrl">+</a> 
+          <h2 class="section-title expandable-title">Subtotal <span class="small-text">(with taxes / fees)</span></h2>
+        </section>
+        <section class="cart-section cart-code">
+          <a href="#" class="expandable-ctrl">+</a> 
+          <h2 class="section-title expandable-title">Discount code / gift card</h2>
+        </section>
+        <section class="cart-upsell">
+          <h2 class="section-title">Add to your order...</h2>
+          <div class="upsell-list-wrapper">
+            <ul class="no-bullet upsell-list">
+              <li class="upsell-item">
+                <a href="#" class="upsell-link">
+                  <img src="img/v2/upsell-parking.png" class="upsell-img">
+                  <span class="upsell-name">Parking</span>
+                  <span class="upsell-price">$10</span>
+              </li>
+              <li class="upsell-item">
+                <a href="#" class="upsell-link">
+                  <img src="img/v2/upsell-shirt.png" class="upsell-img">
+                  <span class="upsell-name">T-Shirt</span>
+                  <span class="upsell-price">$25</span>
+              </li>
+              <li class="upsell-item">
+                <a href="#" class="upsell-link">
+                  <img src="img/v2/upsell-meet.png" class="upsell-img">
+                  <span class="upsell-name">Meet Maroon 5</span>
+                  <span class="upsell-price">$200</span>
+              </li>
+              <li class="upsell-item">
+                <a href="#" class="upsell-link">
+                  <img src="img/v2/upsell-fp.png" class="upsell-img">
+                  <span class="upsell-name">Fast Pass</span>
+                  <span class="upsell-price">$39</span>
+              </li>
+            </ul>          
+          </div>
+          </section>
+        <div class="page-controls back-control cf">
+          <div class="back-link-wrapper">
+            <a href="#" class="back-link gotoLink" data-link="list-page">Continue shopping</a>
+          </div>
+        </div>
+      </div>
+      <div class="review-action fixed">
+        <button class="btn btn-action">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery-ui-1.10.4.min.js"></script>
+  <script src="js/mobile.js"></script>
+  -->
+
+  <script language="JavaScript" type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <!-- GLOBAL UI -->
+  <script language="JavaScript" type="text/javascript" src="js/jquery-ui-1.10.4.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script> 
+  <script language="JavaScript" type="text/javascript" src="js/jquery.touchSwipe.min.js"></script> 
+  <script language="JavaScript" type="text/javascript" src="js/mobile.js"></script>
+  <!-- ISM -->
+  <script language="JavaScript" type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/ism.js"></script> 
+  <script language="JavaScript" type="text/javascript" src="js/jquery.smoothZoom-custom.js"></script> 
+
+
+</body>
+</html>

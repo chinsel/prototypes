@@ -1,0 +1,326 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10240px"
+	 height="7680px" viewBox="0 0 10240 7680" xml:space="preserve" id="svg-map" class="covers-on">
+<g id="Section_Outlines" transform="scale(10)">
+	<g id="STATIC_SECTIONS">
+		<path id="GREY_SHADOW" fill="#CCCCCC" d="M414.796,14.98c-64.364,0-124.903,16.368-177.688,45.163
+			c-35.185,19.193-66.924,43.91-94.051,72.986c-16.075,17.23-30.531,35.991-43.124,56.04
+			C70.017,236.795,50.604,291.688,44.946,350.6l-1.316,18.441l0.064,36.599l1.401,18.434
+			c6.273,62.536,28.049,120.502,61.429,169.995c22.248,32.987,49.651,62.21,81.055,86.513c18.612,14.403,38.628,27.079,59.81,37.785
+			c50.308,25.431,107.183,39.761,167.407,39.761h177.722c68.408,0,132.497-18.489,187.548-50.736
+			c36.694-21.495,69.372-49.105,96.633-81.434c16.156-19.158,30.41-39.973,42.47-62.152
+			c28.646-52.683,44.924-113.065,44.924-177.251c0.001-68.408-18.488-132.498-50.735-187.548
+			c-21.495-36.694-49.105-69.372-81.434-96.633c-19.158-16.156-39.973-30.409-62.152-42.47
+			C717.088,31.258,656.704,14.98,592.519,14.98H414.796z"/>
+		
+		<path id="C-E_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M577.231,190.674h30.753l26.197,3.987l1.277,0.445
+			l12.327-47.152l-41.511-4.549H572.8v47.269H577.231z"/>
+		<path id="C-D_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M503.7,143.405h69.101v47.269H503.7V143.405z"/>
+		<path id="C-A_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M323.23,159.924l-29.045,15.946l21.358,40.722
+			l25.426-11.442l27.822-9.347l2.247-0.333l-12.606-47.104L323.23,159.924z"/>
+		<path id="C-F_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M658.671,203.204l26.198,11.96l5.693,3.986
+			l27.338-41.004l-34.172-17.654l-35.878-12.53l-0.063-0.007l-12.327,47.152L658.671,203.204z"/>
+		<path id="C-B_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M434.555,190.687l-0.323-47.282h-30.697
+			l-42.145,3.987l-2.955,0.97l12.606,47.105l28.506-4.223L434.555,190.687z"/>
+		<path id="C-C_1_" fill="#dddddd" stroke="#FFFFFF" stroke-miterlimit="10" d="M435.426,190.674h68.275v-47.269H434.23
+			l0.323,47.282L435.426,190.674z"/>
+		
+	</g>
+  <g id="unavail">
+	  <path fill="#EFEFEF" d="M737.8,514.5l4.7-4.7l15.3-22l12.7-26l7.3-22.7l-18-6l-3.3,7.4l-10.7,29.3l-14.7,24l-9.3,10.7l-16.7,16.6
+      l-26.6,18.7l-26.7,12l-42,8.7h-214l-40.7-10.7l-8.6,17.3l-6,11.301l9.4,4.199l9.5,3.4l21.899,6.1l17.601,1.2h199.5l24.5-3.8
+      l25.399-7.3l49.382-20.393l18.836,32.277l-25.229,14.649l-1.71,0.992l-24.073,7.738l-36.538,9.887l-30.521,4.3H400.279h-24.502
+      l-31.811-6.02l-26.222-10.315l-6.03-3.472l-25.019-14.364l29.483-41.692L291.5,541.5l-26.333-26.334h-0.005l39.408-33.523
+      c-13.641-16.606-23.722-37.433-28.776-60.707h0.002c-2.373-10.928-3.651-22.386-3.651-34.207c0-11.563,1.22-22.782,3.494-33.494
+      l0.004,0.001c5.071-23.896,15.441-45.235,29.518-62.122l-40.9-34.931l6.316-6.822l24.825-20.404l20.144-12.363l-21.358-40.722
+      l-0.003-0.005l18.712-10.274l10.331-5.672l38.157-12.529l42.145-3.986h202.745l41.573,4.556l35.88,12.529l9.938,5.135l24.232,12.52
+      l0.007-0.002l-0.004,0.007l-27.335,41.001L690.5,219.1l-5.7-4l-26.2-11.9l-24.5-8.6l-26.199-4h-30.7H435.4l-35.9,0.6l-30.8,4.6
+      l-27.8,9.3l9.5,20.7l5.1-2.7l10.6-5.1l14.601-3.4l15.3-2.4l16.3-1h185.4l16,0.7l13.2,2.4l11.6,3.4l11.9,4.1l13.199,5.7l9.9,5.1
+      l9.5,6.2l11.3,7.4l9.5,6.9l7.8,7.1l7.5,8.5l4.7,4.8l9.2,11.9l7.5,10.8l6,10.9l5.3,12.7l7.601,21.4l19.1-5.4l-8-23.3l-13.4-26
+      l-13-21.7l-5-5l0.067,0.034l56.219-47.864c0,0-32.445-35.27-65.548-54.22l-0.004,0.006l0.001-0.011l-6.832-3.947l-18.782-9.633
+      c-58.321-28.53-128.765-27.855-128.765-27.855H433.91c0,0-72.648-1.274-131.237,27.259l-19.026,9.299l-0.238-0.493l-41.774-72.219
+      c-22.738,12.983-43.906,28.402-63.128,45.922l0,0c-22.085,20.132-41.6,43.027-58.025,68.131l0,0
+      c-13.656,20.87-25.164,43.272-34.218,66.891l0.002,0.002l-0.002-0.001c-6.157,16.06-11.183,32.68-14.974,49.764l51.375,11.311
+      c-2.118,8.873-3.805,20.347-4.875,33.47h0c-0.83,10.175-1.288,21.343-1.288,33.057c0,10.746,0.385,21.031,1.089,30.514
+      c0.8,10.783,2.012,20.525,3.538,28.729l-51.197,10.293c3.914,19.338,9.406,38.105,16.328,56.164
+      c9.254,24.146,21.057,47.025,35.113,68.293c16.14,24.42,35.225,46.725,56.75,66.402c19.512,17.836,41.031,33.512,64.174,46.66
+      l41.817-73.325l16.56,8.114c68.372,29.828,133.235,26.913,133.235,26.913h141.545c0,0,66.555,1.718,128.605-26.967l-0.079-0.137
+      l19.144-9.471l6.683-4.036l0.098,0.167c0,0,38.417-21.589,63.079-51.16L737.831,514.5H737.8z M280.963,605.588L280.963,605.588
+      l0.274,0.179L280.963,605.588z M289.03,613.049l-5.342,8.157c-0.006-0.003-0.012-0.007-0.018-0.01L289.03,613.049z"/>
+  </g>
+	<g id="STATIC_SECTION_NAMES">
+	
+		<text transform="matrix(1 0 0 1 447.3916 167.498)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="14.386" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">C</tspan></text>
+		<text transform="matrix(1 0 0 1 517.3916 167.498)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="14.386" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">D</tspan></text>
+		<text transform="matrix(1 0 0 1 585.3916 167.498)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="14.772" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">E</tspan></text>
+		<text transform="matrix(1 0 0 1 655.3926 183.832)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="15.166" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">F</tspan></text>
+		<text transform="matrix(1 0 0 1 378.0581 167.498)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="14.386" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">B</tspan></text>
+		<text transform="matrix(1 0 0 1 313.7251 182.165)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">CLUB </tspan><tspan x="14.386" y="16" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">A</tspan></text>
+		
+	</g>
+	<g id="STAGE">
+		<path id="stage-path" d="M283.15,339.83v95.326h17.99c24.004,0,43.864-17.745,47.177-40.833h21.542v23.11h14.951
+			v-23.11h32.507c2.073,2.323,5.091,3.786,8.45,3.786c6.253,0,11.322-5.069,11.322-11.323c0-6.253-5.069-11.323-11.322-11.323
+			c-3.359,0-6.377,1.463-8.45,3.786h-32.507v-21.696h-14.951v21.696h-21.767c-3.905-22.395-23.44-39.419-46.953-39.419H283.15z"/>
+		<text transform="matrix(0 -1 1 0 316.0996 419.1338)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18.0536">STAGE</text>
+		<path fill="#DDDDDD" d="M593.835,375.16h25.34v24.33h-25.34V375.16z"/>
+		<path fill="#DDDDDD" d="M545.175,375.16h41.86v24.33h-41.86V375.16z"/>
+		<text transform="matrix(1 0 0 1 550.0645 394.2646)" fill="#ACACAC" font-family="Arial Bold, Arial, sans-serif" font-size="18.05">MIX</text>
+		<text transform="matrix(1 0 0 1 604.04 385.4395)" fill="#ACACAC" font-family="Arial Bold, Arial, sans-serif" font-size="7.0727">C</text>
+		<text transform="matrix(1 0 0 1 594.4395 393.6748)" fill="#ACACAC" font-family="Arial Bold, Arial, sans-serif" font-size="7.0727">STAGE</text>
+	</g>
+	<g id="CLUB_LEVEL">	
+		<path id="LH" class="svg-sect svg-sect-avail" d="M472.43,593.395h32.959v38.259H472.43V593.395z"/>
+		<path id="LN" class="svg-sect svg-sect-unavail" d="M335.833,567.163l-19.652-11.378l-6.41,9.064h-0.001l-23.055,32.603
+			l31.035,17.862l0.587,0.231l19.532-48.383H335.833z"/>
+		<path id="LM" class="svg-sect svg-sect-avail" d="M349.987,582.646l-9.429-4.172h0.001l5.939-11.31h-8.631l-19.532,48.383
+			l25.634,10.085l2.096,0.396l12.111-40.404L349.987,582.646z"/>
+		<path id="LL" class="svg-sect svg-sect-unavail" d="M381.367,592.104l-21.923-6.018l-1.268-0.461l-12.111,40.404l29.281,5.54
+			l6.274-39.447L381.367,592.104z"/>
+		<path id="LK" class="svg-sect svg-sect-unavail" d="M398.991,593.393l-17.372-1.272l-6.274,39.447l0.434,0.081h24.503h4.772v-38.256
+			H398.991z"/>
+		<path id="LJ" class="svg-sect svg-sect-unavail" d="M405.055,593.395h35.077v38.259h-35.077V593.395z"/>
+		<path id="LI" class="svg-sect svg-sect-unavail" d="M440.13,593.395h32.3v38.259h-32.3V593.395z"/>
+		<path id="LG" class="svg-sect svg-sect-unavail" d="M505.39,593.395h34.505v38.259H505.39V593.395z"/>
+		<path id="LF" class="svg-sect svg-sect-avail" stroke="#DDDDDD" d="M539.895,593.395h32.066v38.259h-32.066V593.395z"/>
+		<path id="LE" class="svg-sect svg-sect-unavail" d="M598.448,593.391H571.96v38.258h26.488l7.7-1.086v-38.388L598.448,593.391z"/>
+		<path id="LD" class="svg-sect svg-sect-unavail" d="M622.953,589.521l-16.803,2.653v38.388l22.82-3.213l7.274-1.969l-7.476-37.536
+			L622.953,589.521z"/>
+		<path id="LC" class="svg-sect svg-sect-unavail" d="M648.314,582.214l-19.545,5.631l7.476,37.536l28.5-7.711l-12.776-36.96
+			L648.314,582.214z"/>
+		<path id="LB" class="svg-sect svg-sect-unavail" d="M664.746,617.672l0.764-0.207l24.073-7.738l1.034-0.601l-17.271-37.211
+			l-21.376,8.797L664.746,617.672z"/>
+		<path id="LA" class="svg-sect svg-sect-unavail" d="M716.521,594.083l-18.795-32.203l-24.382,10.034l17.271,37.211L716.521,594.083z
+			"/>
+	</g>
+
+	<g id="SECTION_100_LEVEL">
+		<path id="s-109A" class="svg-sect svg-sect-avail" d="M757.166,286.496l13.333,26l7.999,23.333l3.073,9.479l1.98,11.567
+			l75.99-13.813c0,0-10.596-73.393-64.158-131.098l-56.219,47.864l5,5L757.166,286.496z"/>
+		<path id="s-111A" class="svg-sect svg-sect-unavail" d="M757.83,487.829l-15.333,22l-4.667,4.667l55.152,51.355
+			c0,0,52.264-51.841,66.641-135.155l-75.816-13.961l-5.977,22.428l-7.333,22.666L757.83,487.829z"/>
+		<path id="s-110A" class="svg-sect svg-sect-unavail" d="M859.545,343.068l-75.99,13.812l1.959,18.523v22.585l-1.705,18.751
+			l75.817,13.961c2.513-14.47,3.81-29.126,3.81-43.812C863.436,372.15,862.104,357.495,859.545,343.068z"/>
+		<path id="s-111" class="svg-sect svg-sect-avail"  d="M641.985,414.043l8.782,5.436l-7.946,12.964l17.146,15.472l64.469,53.613
+			l6.731-7.695l14.666-24l10.667-29.333l3.333-7.333l-113.248-33.341L641.985,414.043z"/>
+		<path id="s-108" class="svg-sect svg-sect-avail" d="M656.464,286.311l-19.919,35.316l13.8,13.8l73.179-62.284l-4.401-4.402
+			l-7.481-8.501l-7.821-7.142l-9.522-6.801l-11.222-7.482l-9.521-6.121l-9.862-5.101l-6.188-2.698l-20.959,49.48L656.464,286.311z"/>
+		<path id="s-110" class="svg-sect svg-sect-avail" d="M785.514,397.985V375.4l-1.959-18.523l-1.981-11.566l-3.073-9.48
+			l-131.497,37.648l0.419,12.545l-0.837,13.8l113.248,33.341l18,6l5.976-22.428L785.514,397.985z"/>
+		<path id="s-112" class="svg-sect svg-sect-avail" d="M660.8,485.966l-23.835,12.126l19.779,51.526l21.753-9.788l26.667-18.666
+			l16.667-16.667l2.601-2.972l-64.468-53.613l-9.948-8.977l-12.021,12.088L660.8,485.966z"/>
+		<path id="s-103" class="svg-sect svg-sect-avail" d="M330.373,268.318l14.715,19.854l24.672-12.963l-19.266-49.318l-9.883-20.581
+			l-26.845,12.08l-18.364,11.562l-24.825,20.404l-6.317,6.822l40.9,34.931C312.609,282.173,321.085,274.473,330.373,268.318z"/>
+		<path id="s-109" class="svg-sect svg-sect-unavail" d="M751.83,319.833l-5.334-12.666l-5.949-10.878l-7.482-10.882l-9.182-11.903
+			l-0.359-0.359l-73.179,62.284l-6.899,6.9l10.035,14.562l-8.781,4.256l2.3,12.336l112.449-32.195L751.83,319.833z"/>
+		
+		
+		
+		<path id="s-117" class="svg-sect svg-sect-avail" d="M304.573,481.64l-39.408,33.523l26.333,26.334l44.333,25.666h10.667
+			l8.667-17.333l14.175-51.319l-23.835-13.382l-15.41,19.821C320.672,498.664,312.087,490.788,304.573,481.64z"/>
+		<path id="s-113" class="svg-sect svg-sect-avail" d="M623.168,465.061h-51.211V560.5h37.876l42-8.667l4.914-2.212l-19.779-51.526
+			L623.168,465.061z"/>
+		<path id="s-107" class="svg-sect svg-sect-avail" d="M622.331,308.666l14.218-34.289l20.959-49.48l-7.074-3.083l-11.902-4.081
+			l-11.563-3.4l-13.263-2.381l-15.983-0.68h-25.766v97.394H622.331z"/>
+		<path id="s-106" class="svg-sect svg-sect-avail" d="M503.424,211.272h68.533v97.394h-68.533V211.272z"/>
+		<path id="s-116" class="svg-sect svg-sect-avail" d="M432.97,560.5v-95.439h-49.829l-13.799,33.453l-14.175,51.319l40.666,10.667
+			H432.97z"/>
+		<path id="s-105" class="svg-sect svg-sect-avail" d="M432.97,211.272h70.454v97.394H432.97V211.272z"/>
+		<path id="s-115" class="svg-sect svg-sect-avail" d="M432.97,465.061h70.454V560.5H432.97V465.061z"/>
+		<path id="s-104" class="svg-sect svg-sect-avail" d="M382.723,308.666h50.247v-97.394h-20.583l-16.324,1.02l-15.303,2.38
+			l-14.623,3.401l-10.542,5.101l-5.101,2.721l19.266,49.318L382.723,308.666z"/>
+		<path id="s-114" class="svg-sect svg-sect-avail" d="M503.424,465.061h68.533V560.5h-68.533V465.061z"/>
+		<path id="s-F6" class="svg-sect svg-sect-unavail" d="M472.775,363.83v46.995h64.921V363.83H472.775z"/>
+		<path id="s-F7" class="svg-sect svg-sect-avail" d="M472.775,312.955v50.875H619.17v-50.875H472.775z"/>
+		<path id="s-F5" class="svg-sect svg-sect-avail" d="M472.775,410.825v51.79H619.17v-51.79H472.775z"/>
+		<path id="s-F3" class="svg-sect svg-sect-unavail" d="M444.42,363.83v46.984h28.34V363.83H444.42z"/>
+		<path id="s-F4" class="svg-sect svg-sect-avail" d="M331.59,312.95v25.567c1.16,0.723,2.292,1.484,3.395,2.285
+			c2.777,2.016,5.367,4.273,7.739,6.742h52.096v16.285h77.945v-50.88H331.59z"/>
+		<path id="s-F2" class="svg-sect svg-sect-avail" d="M394.82,410.814v16.621h-52.09c-0.134,0.139-0.269,0.277-0.404,0.416
+			c-3.214,3.279-6.817,6.177-10.735,8.617v26.156h141.175v-51.811H394.82z"/>
+	</g>
+	<g id="SECTION_200_LEVEL">
+		<path id="s-207" class="svg-sect svg-sect-avail" d="M406.893,656.959l-7.169,84.377c-26.247-1.254-51.738-5.381-76.182-12.047
+			l21.75-83.143C364.868,651.619,385.469,655.275,406.893,656.959z"/>
+		<path id="s-222" class="svg-sect svg-sect-avail" d="M662.498,128.553l22.788-82.035c28.712,7.927,55.963,19.376,81.253,33.86
+			l-43.186,73.086C704.678,143.142,684.354,134.708,662.498,128.553z"/>
+		
+		<path id="s-206" class="svg-sect svg-sect-unavail" d="M345.292,646.148l-21.75,83.143c-28.697-7.824-55.945-19.16-81.245-33.533
+			l42.245-74.074C303.373,631.879,323.708,640.115,345.292,646.148z"/>
+		
+		<path id="s-215" class="svg-sect svg-sect-avail" d="M844.844,483.227l76.756,30.984c-9.185,24.01-20.905,46.766-34.842,67.936
+			l-70.548-45.939C827.754,519.559,837.365,501.777,844.844,483.227z"/>
+		<path id="s-210" class="svg-sect svg-sect-avail" d="M575.684,658.039c9.006,0,17.854-0.385,26.549-1.096l3.675,84.482
+			c-4.985,0.209-9.995,0.318-15.031,0.318h-50.485v-83.705H575.684L575.684,658.039z"/>
+		
+		<path id="s-212" class="svg-sect svg-sect-avail" d="M723.23,620.551l43.464,74.51c-25.595,14.676-53.198,26.244-82.296,34.195
+			l-22.486-83.154C683.816,639.795,704.325,631.152,723.23,620.551z"/>
+		<path id="s-213" class="svg-sect svg-sect-avail" d="M772.737,585.273l56.575,64.119c-19.08,17.398-40.069,32.738-62.618,45.668
+			l-43.464-74.51C741.24,610.451,757.797,598.58,772.737,585.273z"/>
+		<path id="s-208" class="svg-sect svg-sect-avail" d="M434.137,658.039h32.92v83.705h-50.172c-5.753,0-11.474-0.137-17.16-0.408
+			l7.169-84.377C415.838,657.662,424.918,658.039,434.137,658.039z"/>
+		<path id="s-214" class="svg-sect svg-sect-avail" d="M816.21,536.207l70.548,45.938c-16.299,24.76-35.623,47.35-57.445,67.248
+			l-56.575-64.119C789.294,570.527,803.86,554.02,816.21,536.207z"/>
+		<path id="s-209" class="svg-sect svg-sect-avail" d="M467.056,741.744h73.333v-83.705h-73.333V741.744z"/>
+		<path id="s-211" class="svg-sect svg-sect-avail" d="M661.911,646.102l22.485,83.154c-25.156,6.873-51.432,11.041-78.49,12.17
+			l-3.674-84.482C623.085,655.236,643.02,651.541,661.911,646.102z"/>
+		
+		<path id="s-220" class="svg-sect svg-sect-avail" d="M772.744,188.328l57.068-61.732c21.492,19.674,40.551,41.963,56.666,66.368
+			l-70.41,44.21C803.807,219.451,789.309,203.011,772.744,188.328z"/>
+		<path id="s-221" class="svg-sect svg-sect-avail" d="M723.354,153.464l43.187-73.086c22.806,13.062,44.017,28.588,63.272,46.216
+			l-57.067,61.732C757.905,175.172,741.4,163.439,723.354,153.464z"/>
+		<path id="s-219" class="svg-sect svg-sect-avail" d="M816.069,237.172l70.409-44.21c14.091,21.338,25.932,44.29,35.188,68.521
+			L845.57,292.59C837.988,273.195,828.105,254.569,816.069,237.172z"/>
+		<path id="s-218" class="svg-sect svg-sect-avail" d="M845.57,292.59l76.096-31.107c10.631,27.831,17.846,57.349,21.143,88.04
+			l-81.025,7.213C859.124,334.851,853.659,313.285,845.57,292.59z"/>
+		<path id="s-216" class="svg-sect svg-sect-avail" d="M844.844,483.227c8.303-20.598,13.984-42.135,16.789-64.105l80.965,8.838
+			c-3.396,30.051-10.558,58.963-20.998,86.25L844.844,483.227z"/>
+		<path id="s-223" class="svg-sect svg-sect-avail" d="M602.452,117.954l3.924-83.832c27.214,1.174,53.63,5.417,78.911,12.396
+			l-22.788,82.035C643.596,123.231,623.553,119.618,602.452,117.954z"/>
+		<path id="s-217" class="svg-sect svg-sect-avail" d="M863.659,387.465c0-10.275-0.64-20.536-1.877-30.73l81.026-7.213
+			c1.35,12.563,2.049,25.319,2.049,38.24c0,13.592-0.77,27.004-2.26,40.195l-80.965-8.836
+			C862.969,408.648,863.659,398.078,863.659,387.465z"/>
+		
+		<path id="s-228" class="svg-sect svg-sect-unavail" d="M283.41,152.375l-41.774-72.219c24.99-14.269,51.887-25.57,80.213-33.446
+			l23.55,81.386C323.113,134.038,302.39,142.214,283.41,152.375z"/>
+		
+		<path id="s-224" class="svg-sect svg-sect-avail" d="M575.684,116.891H540.12l-2.122-83.109h52.877c5.194,0,10.36,0.119,15.5,0.34
+			l-3.924,83.832C593.704,117.264,584.786,116.891,575.684,116.891z"/>
+		<path id="s-226" class="svg-sect svg-sect-avail" d="M434.137,116.891c-9.825,0-19.439,0.395-28.857,1.125l-4.319-83.87
+			c5.28-0.234,10.586-0.364,15.924-0.364h50.552v83.109H434.137z"/>
+		<path id="s-225" class="svg-sect svg-sect-avail" d="M467.436,116.891V33.782h70.562l2.122,83.109H467.436z"/>
+		<path id="s-227" class="svg-sect svg-sect-avail" d="M345.399,128.095l-23.55-81.386c25.342-7.048,51.822-11.355,79.111-12.563
+			l4.319,83.87C384.252,119.65,364.262,123.065,345.399,128.095z"/>
+	</g>
+	<g id="EXTRAS" class="extras">
+		<path id="VOM" fill="#CACACA" d="M766.105,470.854l-2.523,5.179l38.884,23.213l-2.856,5.146l18.059,10.909l2.134-3.894
+			l-2.368-1.433l8.088-15.264l-15.147-8.502l-4.356,7.183L766.105,470.854z"/>
+		<path id="VOM_1_" fill="#CACACA" d="M817.263,260.953l-19.022,9.12l2.348,5.398l-39.46,18.75l2.71,5.285l39.719-17.87l3.645,7.568
+			l15.896-7.003l-6.579-15.972l2.494-1.197L817.263,260.953z"/>
+		<path id="MEDIA-AREA" fill="#DDDDDD" d="M754.625,251.53l17.465,26.32l47.965-23.31L793.55,218.8L754.625,251.53z"/>
+		<text transform="matrix(1 0 0 1 769.5996 254.9502)" fill="#ACACAC" font-family="Arial Bold, Arial, sans-serif" font-size="12">MEDIA</text>
+	<!--
+	</g>
+	<g id="ISM_GROUP_COLUMNS">
+	-->
+		<path fill="none" stroke="#CACACA" d="M194.835,651.455l-2.111-1.746l-1.747,2.111l2.111,1.746L194.835,651.455z"/>
+		<path fill="none" stroke="#CACACA" d="M118.212,209.184l1.494-2.296l-2.297-1.495l-1.494,2.297L118.212,209.184z"/>
+		<path fill="none" stroke="#CACACA" d="M811.107,122.288l2.211,1.617l1.617-2.211l-2.213-1.617L811.107,122.288z"/>
+		<path fill="none" stroke="#CACACA" d="M724.023,706.059l-2.563,0.975l0.977,2.563l2.561-0.975L724.023,706.059z"/>
+		<path fill="none" stroke="#CACACA" d="M671.667,722.992l-2.698,0.491l0.491,2.697l2.696-0.492L671.667,722.992z"/>
+		<path fill="none" stroke="#CACACA" d="M620.389,730.681l-2.738,0.147l0.146,2.738l2.736-0.148L620.389,730.681z"/>
+		<path fill="none" stroke="#CACACA" d="M338.262,726.596l0.664-2.658l-2.657-0.665l-0.666,2.659L338.262,726.596z"/>
+		<path fill="none" stroke="#CACACA" d="M285.954,709.738l1.099-2.509l-2.51-1.099l-1.1,2.51L285.954,709.738z"/>
+		<path fill="none" stroke="#CACACA" d="M235.348,684.371l1.377-2.368l-2.368-1.378l-1.378,2.369L235.348,684.371z"/>
+		<path fill="none" stroke="#CACACA" d="M151.596,610.304l-1.815-2.053l-2.053,1.814l1.814,2.053L151.596,610.304z"/>
+		<path fill="none" stroke="#CACACA" d="M390.547,733.93l0.132-2.737l-2.736-0.133l-0.134,2.738L390.547,733.93z"/>
+		<path fill="none" stroke="#CACACA" d="M98.057,521.802l-0.781-2.627l-2.626,0.781l0.781,2.625L98.057,521.802z"/>
+		<path fill="none" stroke="#CACACA" d="M96.239,253.465l1.091-2.513l-2.514-1.092l-1.091,2.513L96.239,253.465z"/>
+		<path fill="none" stroke="#CACACA" d="M152.884,162.333l1.894-1.979l-1.98-1.895l-1.894,1.981L152.884,162.333z"/>
+		<path fill="none" stroke="#CACACA" d="M196.346,120.201l2.108-1.75l-1.75-2.108l-2.108,1.75L196.346,120.201z"/>
+		<path fill="none" stroke="#CACACA" d="M771.24,93.847l2.313,1.468l1.469-2.313l-2.314-1.468L771.24,93.847z"/>
+		<path fill="none" stroke="#CACACA" d="M852.055,160.998l1.844,2.026l2.027-1.844l-1.845-2.027L852.055,160.998z"/>
+		<path fill="none" stroke="#CACACA" d="M886.91,205.588l1.482,2.304l2.304-1.48l-1.48-2.306L886.91,205.588z"/>
+		<path fill="none" stroke="#CACACA" d="M911.174,251.863l1.002,2.55l2.549-1.001l-1.001-2.551L911.174,251.863z"/>
+		<path fill="none" stroke="#CACACA" d="M929.984,305.883l0.516,2.691l2.69-0.515l-0.515-2.691L929.984,305.883z"/>
+		<path fill="none" stroke="#CACACA" d="M937.868,360.738l0.053,2.74l2.738-0.052l-0.051-2.739L937.868,360.738z"/>
+		<path fill="none" stroke="#CACACA" d="M938.235,414.796l-0.012,2.739l2.74,0.011l0.011-2.739L938.235,414.796z"/>
+		<path fill="none" stroke="#CACACA" d="M929.24,468.415l-0.525,2.689l2.688,0.525l0.527-2.689L929.24,468.415z"/>
+		<path fill="none" stroke="#CACACA" d="M912.492,518.193l-1.055,2.53l2.529,1.054l1.053-2.528L912.492,518.193z"/>
+		<path fill="none" stroke="#CACACA" d="M888.381,564.22l-1.39,2.36l2.362,1.39l1.389-2.36L888.381,564.22z"/>
+		<path fill="none" stroke="#CACACA" d="M854.291,613.168l-1.947,1.928l1.926,1.947l1.948-1.928L854.291,613.168z"/>
+		<path fill="none" stroke="#CACACA" d="M774.265,679.387l-2.345,1.419l1.419,2.345l2.344-1.419L774.265,679.387z"/>
+	</g>
+</g>
+<g id="Section_Names" transform="scale(10)" class="section-names">
+	<text transform="matrix(1 0 0 1 398.7793 433.5732)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">FLOOR</tspan><tspan x="26.49" y="20" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">2</tspan></text>
+	<text transform="matrix(1 0 0 1 513.4453 433.5732)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">FLOOR</tspan><tspan x="26.49" y="20" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">5</tspan></text>
+	<text transform="matrix(1 0 0 1 513.4453 335.2402)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">FLOOR</tspan><tspan x="26.49" y="20" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">7</tspan></text>
+	<text transform="matrix(1 0 0 1 398.7798 335.2402)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">FLOOR</tspan><tspan x="26.49" y="20" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">4</tspan></text>
+	<text transform="matrix(1 0 0 1 473.7798 384.9551)"><tspan x="0" y="0" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">FLOOR</tspan><tspan x="26.49" y="20" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">6</tspan></text>
+	<text id="FLOOR_3" transform="matrix(1 0 0 1 453.4946 392.499)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="18">3</text>
+	<text transform="matrix(1 0 0 1 385.8154 530.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">116</text>
+	<text transform="matrix(1 0 0 1 450.1484 530.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">115</text>
+	<text transform="matrix(1 0 0 1 520.1484 530.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">114</text>
+	<text transform="matrix(1 0 0 1 587.1484 530.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">113</text>
+	<text transform="matrix(1 0 0 1 661.4814 513.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">112</text>
+	<text transform="matrix(1 0 0 1 656.4814 279.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">108</text>
+	<text transform="matrix(1 0 0 1 692.8145 456.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">111</text>
+	<text transform="matrix(1 0 0 1 691.8145 331.499)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">109</text>
+	<text transform="matrix(1 0 0 1 708.4814 397.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">110</text>
+	<text transform="matrix(1 0 0 1 587.1484 257.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">107</text>
+	<text transform="matrix(1 0 0 1 519.1484 257.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">106</text>
+	<text transform="matrix(1 0 0 1 449.1484 257.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">105</text>
+	<text transform="matrix(1 0 0 1 383.1484 257.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">104</text>
+	<text transform="matrix(1 0 0 1 298.8154 532.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">117</text>
+	<text transform="matrix(1 0 0 1 305.8154 252.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">103</text>
+	
+	<text transform="matrix(1 0 0 1 277.4819 114.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">206</text>
+	<text transform="matrix(1 0 0 1 347.1489 93.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">207</text>
+	<text transform="matrix(1 0 0 1 409.8154 86.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">208</text>
+	<text transform="matrix(1 0 0 1 481.8154 86.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">209</text>
+	<text transform="matrix(1 0 0 1 554.1484 86.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">210</text>
+	<text transform="matrix(1 0 0 1 616.8164 93.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">211</text>
+	<text transform="matrix(1 0 0 1 687.4824 114.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">212</text>
+	<text transform="matrix(1 0 0 1 752.1484 149.499)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">213</text>
+	<text transform="matrix(1 0 0 1 805.1484 198.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">214</text>
+	<text transform="matrix(1 0 0 1 845.8164 257.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">215</text>
+	<text transform="matrix(1 0 0 1 871.4824 325.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">216</text>
+	<text transform="matrix(1 0 0 1 885.4824 392.499)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">217</text>
+	<text transform="matrix(1 0 0 1 871.4824 471.834)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">218</text>
+	<text transform="matrix(1 0 0 1 846.1504 541.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">219</text>
+	<text transform="matrix(1 0 0 1 804.4824 601.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">220</text>
+	<text transform="matrix(1 0 0 1 752.1484 650.5)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">221</text>
+	<text transform="matrix(1 0 0 1 687.4824 685.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">222</text>
+	<text transform="matrix(1 0 0 1 616.8145 706.5)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">223</text>
+	<text transform="matrix(1 0 0 1 554.1484 712.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">224</text>
+	<text transform="matrix(1 0 0 1 484.1494 714.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">225</text>
+	<text transform="matrix(1 0 0 1 411.1494 711.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">226</text>
+	<text transform="matrix(1 0 0 1 346.4829 706.5)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">227</text>
+	<text transform="matrix(1 0 0 1 276.4819 685.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">228</text>
+	
+	<text transform="matrix(1 0 0 1 775.5938 494.5)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">111A</text>
+	<text transform="matrix(1 0 0 1 799.9277 394.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">110A</text>
+	<text transform="matrix(1 0 0 1 779.2617 296.5)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="20">109A</text>
+	<text transform="matrix(1 0 0 1 304.1689 589.498)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LN</text>
+	<text transform="matrix(1 0 0 1 328.0596 607.498)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LM</text>
+	<text transform="matrix(1 0 0 1 356.9482 615.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LL</text>
+	<text transform="matrix(1 0 0 1 381.8359 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LK</text>
+	<text transform="matrix(1 0 0 1 414.6646 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LJ</text>
+	<text transform="matrix(1 0 0 1 450.2793 618.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LI</text>
+	<text transform="matrix(1 0 0 1 479.5024 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LH</text>
+	<text transform="matrix(1 0 0 1 513.1133 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LG</text>
+	<text transform="matrix(1 0 0 1 548.2813 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LF</text>
+	<text transform="matrix(1 0 0 1 581.2217 619.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LE</text>
+	<text transform="matrix(1 0 0 1 610.1689 616.832)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LD</text>
+	<text transform="matrix(1 0 0 1 637.8359 609.498)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LC</text>
+	<text transform="matrix(1 0 0 1 661.502 601.166)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LB</text>
+	<text transform="matrix(1 0 0 1 685.1689 591.1582)" fill="#FFFFFF" font-family="Arial Bold, Arial, sans-serif" font-size="14">LA</text>
+</g>
+<g id="top-pick-rows">
+<path class="top-pick-row" id="top-pick-row-1" data-label="Best Promenade Seats" d="M4538,846h-406c-11.046,0-20-8.954-20-20s8.954-20,20-20h406c11.046,0,20,8.954,20,20
+S4549.046,846,4538,846z" />
+<path class="top-pick-row" id="top-pick-row-2" data-label="Best Cheap Seats" d="M4591,1039h-500c-11.046,0-20-8.954-20-20s8.954-20,20-20h500c11.046,0,20,8.954,20,20
+S4602.046,1039,4591,1039z"/>
+<path class="top-pick-row" id="top-pick-row-3" data-label="Best Under $100" d="M8112.978,3491.004c-9.399,0-17.779-6.657-19.618-16.23c-32.808-170.743-81.476-314.24-116.525-404.553
+c-37.885-97.617-68.215-155.304-68.517-155.875c-5.161-9.766-1.429-21.866,8.338-27.027c9.764-5.163,21.865-1.429,27.027,8.337
+c1.277,2.417,31.724,60.33,70.441,160.094c35.647,91.852,85.146,237.799,118.517,411.478c2.084,10.847-5.02,21.331-15.867,23.415
+C8115.499,3490.886,8114.229,3491.004,8112.978,3491.004z"/>
+<path class="top-pick-row" id="top-pick-row-4" data-label="Best Loge Seats" d="M5639.003,6220c-0.048,0-0.095,0-0.143-0.001l-156.424-1.09c-11.045-0.076-19.937-9.093-19.86-20.139
+c0.077-10.997,9.018-19.86,19.997-19.86c0.048,0,0.095,0,0.143,0.001l156.424,1.09c11.045,0.076,19.937,9.093,19.86,20.139
+C5658.923,6211.137,5649.982,6220,5639.003,6220z"/>
+<path class="top-pick-row" id="top-pick-row-5" data-label="Best Terrace Seats" d="M4284.066,5101.352c-25.063,0-69.634-1.061-128.432-6.757c-84.409-8.178-215.198-27.934-358.931-75.612
+c-10.484-3.478-16.164-14.796-12.686-25.279c3.478-10.484,14.796-16.164,25.28-12.686
+c139.836,46.386,267.132,65.668,349.296,73.676c89.185,8.692,145.961,6.35,146.524,6.326c11.027-0.48,20.372,8.064,20.859,19.098
+c0.488,11.032-8.055,20.371-19.086,20.863C4306.033,5101.019,4298.11,5101.352,4284.066,5101.352z"/>
+<path class="top-pick-row" id="top-pick-row-6" data-label="Best Standard Priced Seats" d="M5631,2999h-538c-11.045,0-20-8.955-20-20s8.955-20,20-20h538c11.046,0,20,8.955,20,20
+S5642.046,2999,5631,2999z"/>
+<path class="top-pick-row" id="top-pick-row-7" data-label="Meet &amp; Greet Package" d="M3563,3398c-11.046,0-20-8.954-20-20v-218c0-11.046,8.954-20,20-20s20,8.954,20,20v218
+C3583,3389.046,3574.046,3398,3563,3398z"/>
+<path class="top-pick-row" id="top-pick-row-8" data-label="Ballroom Package" d="M3779,3398c-11.046,0-20-8.954-20-20v-218c0-11.046,8.954-20,20-20s20,8.954,20,20v218
+C3799,3389.046,3790.046,3398,3779,3398z"/>
+<path class="top-pick-row" id="top-pick-row-9" data-label="Fan Package" d="M4158,4583c-11.046,0-20-8.954-20-20v-405c0-11.046,8.954-20,20-20s20,8.954,20,20v405
+C4178,4574.046,4169.046,4583,4158,4583z"/>
+<path class="top-pick-row" id="top-pick-row-10" data-label="Best Under $200" d="M5541,3585c-11.046,0-20-8.954-20-20v-405c0-11.046,8.954-20,20-20s20,8.954,20,20v405
+C5561,3576.046,5552.046,3585,5541,3585z"/>
+</g>

@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-touch">
+
+<head>
+  <title>Tickets | Maroon 5 - Hollywood CA at Ticketmaster</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no">
+  <link href="css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <button type="button" class="begin">Click to Begin Test</button>
+
+  <div class="subheader">
+    <p class="text"><span class="artist">Maroon 5</span>&bull;<span class="venue">Amway Center, Orlando, FL</span>&bull;<span class="date">Sun, Apr 7 @ 8:00 PM</span></p>
+    <a href="#cart" class="cart-link empty"></a>
+  </div>
+
+  <div class="presale-bar">
+    <p class="text">Tickets go on sale in: <span class="timer"></span> seconds</p>
+    <a href="#" style="position:absolute; right:40px; top:0px;">Skip Presale (Temp)</a>
+    <button type="button" class="close"></button>
+  </div>
+
+  <div class="high-bar">
+    <p class="text">This event is on fire - tickets are going fast!</p>
+    <button type="button" class="close"></button>
+  </div>
+
+  <div class="frame frame-ba presale">
+
+    <div class="zoom-container" id="zoom-container">
+    	<div class="map" id="map" style="width: 10240px; height: 7680px">
+      </div>
+
+      <div class="landmarks" data-allow-scale="false" data-show-at-zoom="0" data-allow-drag="true">
+        <!--<div class="item mark bubble" data-position="2000,2000" data-show-at-zoom="0" data-allow-scale="false"> /* TEMPLATE */
+            <div><div class="panel price">$39+<b class="caret down"></b></div></div>
+        </div>-->
+      </div>
+  	</div>
+
+    <b class="polling"></b>
+    <p class="polling-text">Loading map...</p>
+
+    <b class="auto-polling"></b>
+
+    <div class="panel section-info">
+      <img src="" class="vfs" />
+      <p class="no-matches">No matches.</p>
+      <p class="info"><span class="section"></span><br />
+        <span class="price-range"></span></p>
+      <b class="caret"></b>
+    </div>
+
+  	<form class="filters panel">
+  		<div class="container">
+        <div class="filters-main">
+  	  		<fieldset class="filter-group filter-quantity">
+  	  			<legend>Quantity</legend>
+    				<button type="button" class="decrease"></button>
+    				<input type="tel" class="quantity" value="2" />
+    				<button type="button" class="increase"></button>
+  	  		</fieldset>
+  	  		<fieldset class="filter-group filter-price">
+  	  			<legend>Price Range</legend>
+            <div class="filter-values">
+              <div class="filter-value"><span class="dollar-sign">$</span><input type="tel" class="price-min" /></div>
+              <div class="filter-value"><span class="dollar-sign">$</span><input type="tel" class="price-max" /></div>
+            </div>
+            <div id="slider"></div>
+  	  		</fieldset>
+  	  		<div class="filter-group"><button type="button" class="find">Find Tickets</button></div>
+        </div>
+	  	</div>
+  	</form>
+
+    <div class="waiting panel mid">
+      <button type="button" class="close"></button>
+      <ul class="waiting-list">
+        <!--<li class="waiting-item"><img src="img/thumb-explore.png" /><p>Explore the map to lorem ipsum dolor lorem ipsum dolor.</p></li>-->
+        <li class="waiting-item"><img src="img/thumb-signin.png" /><div><p class="hdr">Tip:</p><p>Sign in now to speed through checkout later!<br /><a href="#" class="sign-in-link">Sign In</a></p></div></li>
+      </ul>
+    </div>
+    <div class="waiting panel mid also">
+      <button type="button" class="close"></button>
+      <ul class="waiting-list">
+        <li class="waiting-item"><img src="img/thumb-tap.png" /><div><p class="hdr">Or...</p><p>Click a section to get the best available seats there.</p></div></li>
+      </ul>
+    </div>
+
+  	<div class="top-picks">
+
+	  	<div class="zoom">
+	  		<button type="button" class="zoom-in"></button>
+	  		<button type="button" class="zoom-out disable"></button>
+	  	</div>
+
+	  	<div class="misc">
+	  		<button type="button" class="info"></button>
+          <div class="legend panel sections">
+            <h4 class="legend-hdr">Legend</h4>
+            <ul class="legend-list">
+              <li class="legend-avail">Tickets Available</li>
+              <li class="legend-unavail">No Tickets</li>
+            </ul>
+            <b class="caret down"></b>
+          </div>
+	  		<button type="button" class="bubbles"></button>
+          <div class="bubble-note panel dark">Price Bubbles have been turned on.<b class="caret left"></b></div>
+	  	</div>
+
+      <div id="mini" class="mini">
+        <b class="beacon"></b>
+      </div>
+
+  	</div>
+
+    <div id="capture-map" class="capture-map"></div>
+    <canvas id="canvas-map" class="canvas-map" width="640" height="427"></canvas>
+
+  </div>
+
+  <div class="panel dark toaster"></div>
+
+  <div class="countdown"></div>
+
+  <div class="overlay dark" style="display:block;"></div>
+
+  <div class="prompt">
+    <p class="hdr">These seats will be released if we find a new match:</p>
+    <div class="selection"></div>
+    <div class="buttons"><button type="button" class="cancel">Cancel</button><button type="button" class="yes">Yes, search for new seats</button></div>
+    <p class="dont-show"><input type="checkbox" class="" id="check1" /><label for="check1">Don't show this message again.</label></p>
+    <button type="button" class="close"></button>
+  </div>
+
+  <div class="details">
+    <div class="close-container"><button type="button" class="close">Close</button></div>
+    <div class="container">
+      <ul class="details-list">
+        <!--<li class="details-item"> /* TEMPLATE */
+          <div class="images">
+            <img src="../../mobile/img/seatview/208_SeatViews_640x427.jpg" class="main-img" />
+            <ul class="img-list">
+              <li><img src="../../mobile/img/seatview/208_SeatViews_640x427.jpg" class="current" /></li>
+              <li><img src="temp/details-img-alt1.jpg" /></li>
+            </ul>
+          </div>
+          <div class="desc">
+            <div>
+              <p class="info"><span class="title">Best Cheap Seats<br /></span>
+                <span class="section">Promenade 208</span><br />
+                <span class="row-seat"><span class="row">Row 3</span>, <span class="seat">Seat 13</span></span><br />
+                <span class="add-note">Add to cart to see seats<br /></span>
+                <span class="hdr">Details</span>
+                <span class="dist">&bull; About 410 ft from stage</span></p>
+              <p class="price"><span class="each">$53.40 x 2<br /></span>
+                <span class="total">$53.40</span></p>
+            </div>
+            <div class="mobile">Available for <span>FREE</span> mobile delivery!</div>
+            <button type="button" class="add">Select Seat</button>
+          </div>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+
+  <form class="account sign-in">
+    <fieldset class="">
+      <legend>Sign In</legend>
+      <label for="sign-in1">Email</label>
+      <input type="text" id="sign-in1" />
+      <label for="sign-in2">Password</label>
+      <input type="text" id="sign-in2" />
+      <a href="#">Forgot your password?</a>
+      <div class="actions"><button type="button" class="disable">Sign In</button><a href="#" class="account-link">New here? Create an account!</a></div>
+    </fieldset>
+    <button type="button" class="close"></button>
+  </form>
+
+  <form class="account create">
+    <fieldset class="">
+      <legend>Create Account</legend>
+      <div class="multiple-fields">
+        <div>
+          <label for="create1">First Name</label>
+          <input type="text" id="create1" />
+        </div>
+        <div>
+          <label for="create2">Last Name</label>
+          <input type="text" id="create2" />
+        </div>
+      </div>
+      <label for="create3">Email</label>
+      <input type="text" id="create3" />
+      <label for="create4">Password</label>
+      <input type="text" id="create4" />
+      <label for="create5" class="disable">Confirm Password</label>
+      <input type="text" id="create5" class="disable" readonly="readonly" />
+      <label for="create6">Country</label>
+      <input type="text" id="create6" value="United States" />
+      <label for="create7">Zip Code</label>
+      <input type="text" id="create7" />
+      <p class="terms">By submitting, you agree to the <a href="#">Terms</a> and understand that information will be used<br />as described in our <a href="#">Privacy Policy</a>.</p>
+      <div class="actions"><button type="button" class="disable">Create Account</button><a href="#" class="account-link">Already have an account? Sign in.</a></div>
+    </fieldset>
+    <button type="button" class="close"></button>
+  </form>
+
+  <div class="frame frame-cart">
+
+    <div class="column-8">
+      <p class="hdr"><b>Shopping Cart</b> (<span class="items">0 items</span>)</p>
+      <div class="panel">
+        <div class="back"><button type="button">Maroon 5, Amway Center - Sun, Apr 7 @ 8:00 PM</button></div>
+        <ul class="cart-list">
+          <!--<li class="cart-item"> /* TEMPLATE */
+            <img src="../../mobile/img/seatview/106_SeatViews_640x427.jpg" class="image" />
+            <div class="desc">
+              <p class="info"><span class="quantity">2 Adult Tickets<br /></span>
+                <span class="section">Terrace 106</span><br />
+                <span class="row-seat"><span class="row">Row 2</span>, <span class="seat">Seats 9-10</span></span></p>
+              <p class="price"><span class="total">$226.00<br /></span>
+                <a href="#">Edit</a></p>
+              <div class="mobile">Available for <span>FREE</span> mobile delivery!</div>
+            </div>
+          </li>-->
+        </ul>
+      </div>
+      <p class="hdr"><b>Add to your order...</b></p>
+      <div class="panel">
+        <ul class="upsell-list">
+          <li><a href="#"><img src="temp/upsell1.png" />Parking<br />$10 - $25</a></li>
+          <li><a href="#"><img src="temp/upsell2.png" />T-Shirt<br />$25</a></li>
+          <li><a href="#"><img src="temp/upsell3.png" />Meet Maroon 5<br />$200</a></li>
+          <li><a href="#"><img src="temp/upsell4.png" />Fast Pass<br />$39</a></li>
+          <li><a href="#"><img src="temp/upsell5.png" />Album<br />$12</a></li>
+          <li><a href="#"><img src="temp/upsell6.png" />Flex Cap<br />$20</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="column-4">
+      <p class="hdr">&nbsp;</p>
+      <div class="panel">
+        <div class="timer">Reserved for: <b></b></div>
+        <div class="buy"><button type="button">Buy Now</button></div>
+        <div class="cart">
+          <div><p><span class="dark fs15">Subtotal</span> (with taxes / fees)</p><p class="total fs15">$253.40</p></div>
+          <div><p><span class="dark">Maroon 5, Amway Center - Sun, Apr 7 @ 8:00 PM</span><br />
+            <span class="cart-listing"></span></p></div>
+          <!--<div class="dark"><p><span class="tickets">2 Tickets ($113.00 ea)</span></p><p class="total-tickets">$226.00</p></div>-->
+          <div class="dark"><p>Order Fee</p><p class="total-fee">$5.00</p></div>
+          <div class="dark"><p>Est. Taxes</span></p><p class="total-taxes">$22.40</p></div>
+          <div class="dark"><p><b>Total</b></p><p class="total">$253.40</p></div>
+        </div>
+        <div class="discount"><button type="button">Discount code / gift card</button></div>
+        <div class="back"><a href="#">Go Back and Continue Shopping</a></div>
+      </div>
+    </div>
+
+  </div>
+  
+  <script language="JavaScript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery-ui-1.10.4.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery.smoothZoom.custom.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script language="JavaScript" type="text/javascript" src="js/high.js"></script>
+
+  <div class="vfs-loader">
+    <img src="../../mobile/img/seatview/101_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/102_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/103_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/104_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/105_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/106_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/107_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/108_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/109A_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/109_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/110A_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/110_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/111A_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/111_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/112_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/113_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/114_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/115_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/116_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/117_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/118_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/201_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/202_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/203_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/204_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/205_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/206_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/207_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/208_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/209_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/210_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/211_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/212_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/213_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/214_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/215_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/216_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/217_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/218_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/219_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/220_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/221_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/222_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/223_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/224_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/225_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/226_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/227_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/228_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/229_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/230_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/231_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/232_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F2_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F3_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F4_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F5_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F6_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/F7_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LA_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LB_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LC_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LD_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LE_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LF_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LG_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LH_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LI_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LJ_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LK_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LL_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LM_SeatViews_640x427.jpg" />
+    <img src="../../mobile/img/seatview/LN_SeatViews_640x427.jpg" />
+  </div>
+
+</body>
+
+</html>

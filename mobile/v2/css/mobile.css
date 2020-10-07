@@ -1,0 +1,1066 @@
+/* mobile stylesheet */
+
+body {
+  background: #fff;
+}
+a {
+  color: #1770de;
+  text-decoration: none;
+}
+
+
+.page-wrapper {
+  margin: auto;
+  max-width: 320px;
+  position: relative;
+}
+.link-button {
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: #fff;
+  color: #1770de;
+  padding: 8px 20px;
+  font-size: 1.3em;
+  text-align: center;
+  display: inline-block;
+}
+.more-events-header .link-button {
+  padding: 8px 10px;
+}
+.buy-button {
+  border-color: #1770de;
+  background: #1770de;
+  color: #fff;  
+}
+.ticket-list-item-link .buy-button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.place-order .buy-button {
+  padding: 8px 10px;
+  text-transform: uppercase;
+}
+.add-to-cart .buy-button {
+  text-transform: uppercase;
+}
+
+
+
+
+/* GLOBAL HEADER */
+.global-header {
+  background: #333 url("../img/header-maroon5.png") no-repeat;
+  background-size: 320px;
+  display: table;
+  width: 100%;
+  color: #fff;
+}
+.header-element {
+  display: table-cell;
+  vertical-align: middle;
+  /* border-bottom: 2px solid #d00509; */
+}
+.menu-link {
+  background-image: url("../img/menu-sprites.png");
+  background-repeat: no-repeat;
+  background-size: 50px 175px;
+  display: block;
+  height: 40px;
+}
+.burger-link {
+  width: 40px;
+  background-position: 13px 17px;
+}
+.cal-link {
+  width: 34px;
+  background-position: 8px -35px;
+}
+.cart-link {
+  width: 37px;
+  background-position: 3px -88px;
+  position: relative;
+}
+.cart-count {
+  display: none;
+}
+.menu-active {
+  background: #fff;
+  border-bottom-color: #fff;
+}
+.cart-link-filled,
+.cart-link-active {
+  background-position: 3px -138px;
+}
+.cart-link-filled > .cart-count,
+.cart-link-active > .cart-count {
+  display: block;
+  padding-top: 11px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.event-info {
+  width: 100%;
+  padding: 2px 0;
+}
+.artist-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+.event-location,
+.event-date {
+  /* display: block; */
+  font-size: 1.0em;
+}
+
+
+/* condensed header for checkout */
+.page-checkout .menu-burger,
+.page-checkout .menu-cal,
+.page-checkout .menu-cart {
+  display: none;
+}
+.page-checkout .event-info {
+  padding-left: 10px;
+}
+.page-checkout .event-location,
+.page-checkout .event-date {
+  display: inline;
+}
+.page-checkout .event-date:before {
+  content: " - ";
+}
+
+
+
+/* ARTIST HEADER */
+.artist-header {
+  width: 320px;
+  height: 106px;
+  position: relative;
+  overflow-x: scroll;
+  background: url("../img/maroon5.jpg") 0 0 no-repeat;
+  display: none;
+}
+.header-icons {
+  width: 460px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+
+/* HEADER BAR */
+.page-header {
+  text-align: center;
+  position: relative;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+.page-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  color: #666;
+}
+.more-events-header .page-title {
+  padding: 10px 0;
+}
+.filter-ticket-count {
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+.filter-control-list {
+  position: absolute;
+  top: 1em;
+  width: 100%;
+}
+.filter-control-item {
+  font-size: 1.3em;
+}
+.cancel-control {
+  float: left;
+  margin-left: 1em;
+}
+.done-control {
+  float: right;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+
+
+
+/* CALENDAR */
+.cal-flyout {
+  text-align: center;
+}
+.cal-list {
+  display: table;
+  margin: auto;
+}
+.cal-list > li {
+  float: left;
+  width: 38px;
+  margin: 0 2px;
+  padding: 5px 0;
+  font-size: 1.1em;
+}
+.cal-list-item {
+  display: block;
+}
+.cal-list-date {
+  background: rgba(250,242,201,1);
+}
+.cal-list-day {
+  color: #666;  
+}
+.cal-more {
+  background: rgba(23,112,222,0.2);
+}
+.cal-more-link { 
+  display: table-cell;
+  vertical-align: middle;
+  height: 42px;
+}
+.date-selected {
+  font-weight: bold;
+}
+.cal-month-view {
+  display: none;
+}
+.more-events-header {
+  background: #f2f2f2;
+}
+.cal-control-list {
+  position: absolute;
+  top: 1em;
+  width: 100%;
+}
+.cal-control-list .link-button {
+  width: 40px;
+}
+.cal-control-list .cancel-control .link-button {
+  background: #999;
+  color: #fff;
+}
+.cal-month-img {
+  width: 320px;
+  opacity: 0.8;
+}
+
+
+
+
+/* CART */
+.menu-flyout {
+  background: rgba(255,255,255,0.95);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: none;
+  z-index: 20;
+}
+.empty-cart {
+  background: rgba(255,255,255,1);
+}
+.empty-cart-text {
+  font-size: 1.1em;
+  padding-left: 10px;
+}
+.cart-content-table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+.cart-content-table td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d5d5d5;
+  vertical-align: top;
+}
+
+#chevron-flow .cart-content-table td.buy {
+	padding: 0;
+}
+
+#chevron-flow .cart-content-table td.buy a {
+	display: block;	
+	padding: 15px 10px 15px 0;
+}
+
+.view {
+  padding-left: 10px;
+}
+.cart-content-table .seat,
+.ticket-list .seat {
+  padding-left: 20px;
+  text-align: left;
+}
+.cart-content-table .seat {
+  width: 176px;
+}
+.resale-seat {
+  background: url("../img/resale-icon.png") 4px 17px no-repeat;
+  background-size: 12px 11px;
+}
+.seat-info {
+  font-size: 1.2em;
+  display: block;
+}
+.ticket-list-item-link .seat-info {
+  color: #000;
+}
+.seat-details {
+  margin: 3px 0 0;
+  font-size: 1.1em;
+  color: #666;
+}
+
+
+
+
+.price {
+  font-size: 1.2em;
+  text-align: right;
+  padding-left: 5px;
+  padding-top: 20px !important;
+  color: #000;
+}
+.delete {
+  padding-top: 18px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.seatview-img {
+  width: 39px;
+  border: 1px solid #ccc;
+}
+.collapsible-link {
+  float: left;
+}
+.collapsible-icon {
+  width: 13px;
+  float: left;
+  margin: 3px 5px 0 0;
+}
+.collapsible-details {
+  height: 17px;
+  overflow: hidden;
+}
+.collapsible-details > .seat-details {
+  margin-left: 18px;
+}
+.expanded-details {
+  height: auto;
+}
+.remove-icon {
+  width: 21px;
+}
+.subtotal {
+  font-size: 1.5em;
+  padding-left: 77px;
+  vertical-align: middle !important;
+}
+.buy {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.resale-extras { display:none; }
+.resale-seat .resale-extras { display: block; }
+
+.resale-extras .adj-seats-num {display:none; }
+.resale-seat.more-than .resale-extras .adj-seats-num {display:block; }
+
+
+/* chevron alternate */
+#chevron-flow .ticket-list-item-link .price {
+  color: inherit;
+}
+.fwd-chevron-img {
+  width: 10px;
+}
+#chevron-flow .fwd-chevron-img {
+  width: 7px;
+  margin: 0 10px 0 20px;
+}
+.totals > .subtotal {
+  padding-left: 20px;
+  color: #666;
+}
+.totals > .price {
+  padding-top: 15px !important;
+}
+#chevron-flow .buy-button {
+  display: none;
+}
+#chevron-flow.page-checkout .place-order .buy-button {
+  display: block;
+}
+#chevron-flow.page-map .buy-button,
+#chevron-flow .add-parking-button {
+  display: inline-block;
+}
+#chevron-flow .buy-ticket-item {
+  background: url("../img/fwd-grey-icon.gif") 20px center no-repeat;
+  background-size: 7px 10px;
+  width: 27px;
+}
+
+/* resale alternate */
+.resale-alt-table .seat {
+  padding-left: 10px;
+}
+.resale-alt-table .resale-seat {
+  background: none;
+}
+.resale-alt-table .resale-seat .seat-info {
+  background: url("../img/resale-icon-alt.png") 0 3px no-repeat;
+  background-size: 11px 10px;
+  padding-left: 13px;
+}
+
+
+.seatview-expanded {
+  display: none;
+}
+.return-control {
+  height: 30px;
+  background: #fff;
+  border-bottom: 1px solid #d5d5d5;
+}
+.back-link {
+  font-size: 1.3em;
+  display: block;
+  padding-left: 30px;
+  background: url("../img/back-icon.gif") 10px 7px no-repeat;
+  background-size: 10px 17px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.delete-control {
+  background: #fff;
+  border-bottom: 1px solid #d5d5d5;
+  box-shadow: 0 3px 5px rgba(204,204,204,0.5);
+  text-align: center;
+  padding: 5px 0;
+}
+.remove-link {
+  background: url("../img/remove-icon.png") 0 0 no-repeat;
+  background-size: 21px 21px;
+  font-size: 1.1em;
+  color: #d00509;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 25px;
+}
+.seat-info-large {
+  padding-left: 25px;
+  border-bottom: 1px solid #d5d5d5;
+  background: url("../img/seatview2-sliver.jpg") top right no-repeat;
+}
+.seat-info-large > .seat {
+  padding-left: 10px;
+  width: 260px;
+}
+.seat-info-large .price {
+  padding: 8px 0 !important;
+  text-align: left;
+}
+
+
+
+
+/* LIST VIEW */
+.ticket-highlight {
+  background-position: 5px 13px;
+  background-repeat: no-repeat;  
+}
+.ticket-lowest-price {
+  background-image: url("../img/down-arrow-icon.png");
+  background-size: 10px 11px;
+}
+.ticket-best-resale {
+  background-image: url("../img/resale-icon-green.png");
+  background-size: 12px 11px;
+}
+.ticket-resale {
+  background-image: url("../img/resale-icon.png");
+  background-size: 12px 11px;
+}
+.ticket-list-item-link {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.item-details {
+  display: table-cell;
+  padding: 10px 0;
+  text-align: right;
+  vertical-align: middle;
+}
+.ticket-callout-text {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #4cbd5f;
+}
+.seat-sort-info {
+  font-size: 1.1em;
+  color: #666;
+}
+.qty-alert {
+  color: #d00509;
+  display: block;
+}
+.buy-ticket-item {
+  width: 54px;
+}
+#chevron-flow .buy-ticket-item {
+  width: 37px;
+}
+
+
+
+
+/* CUSTOM DROPDOWN */
+.custom-dropdown {
+  position: relative;
+}
+.custom-dropdown:after {
+  content:'>';
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  color:#aaa;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform:rotate(90deg);
+  right: 10px; 
+  top: -3px;
+  position:absolute;
+  pointer-events:none;
+}
+.custom-dropdown:before {
+  content:'';
+  right: 8px; 
+  top: -8px;
+  width: 25px; 
+  height: 25px;
+  background: #fff;
+  position: absolute;
+  pointer-events: none;
+  display: block;  
+}
+.select-dd {
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background: #fff;
+  color: #666;
+  padding: 5px 5px 5px 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+
+
+
+/* FILTERS */
+.page-content {
+  display: table;
+  width: 100%;
+  color: #666;
+}
+
+.filter-types {
+  width: 75px;
+  display: table-cell;
+}
+.filter-type-link {
+  padding: 48px 7px 12px 7px;
+  font-size: 1.2em;
+  text-align: center;
+  display: block;
+  background: url("../img/filter-sprites.png");
+  background-repeat: no-repeat;
+  background-size: 75px 600px;
+}
+.type-active {
+  background: #999;
+}
+.type-active > .filter-type-link {
+  color: #fff;
+}
+.filter-ticket-link {
+  background-position: 0 -80px;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+.type-active > .filter-ticket-link {
+  background-position: 0 20px;
+}
+.filter-seat-link {
+  background-position: 0 -288px;
+}
+.type-active > .filter-seat-link {
+  background-position: 0 -188px;
+}
+.filter-section-link {
+  background-position: 0 -478px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.type-active > .filter-section-link {
+  background-position: 0 -378px;
+}
+
+.filter-options {
+  background: #f2f2f2;
+  border-left: 1px solid #ccc;
+  width: 245px;
+  padding: 0 10px;
+  display: table-cell;
+  vertical-align: top;
+}
+.filter-form {
+  min-height: 400px;
+}
+
+.filter-list-item {
+  border-top: 1px solid #ccc;
+  padding: 1.5em 1em;
+}
+.filter-list-item:first-child {
+  border-top: 0;
+}
+.label-chkbox {
+  float: left;
+  width: 80%;
+  font-size: 1.3em;
+}
+.input-chkbox {
+  float: right;
+}
+
+
+.filter-section {
+  padding-top: 15px;
+}
+.label-select {
+  font-size: 1.3em;
+}
+.label-select-distance {
+  margin-bottom: 5px;
+  display: block;
+}
+.sort-dd {
+  border: 0;
+  background: transparent;
+  color: #1770de;
+  padding-top: 1px;
+}
+.select-distance {
+  width: 100%;
+}
+.section-map {
+  margin: 15px 0;
+}
+.map-img {
+  width: 225px;
+}
+.section-list {
+  margin-left: 5px;
+}
+.section-link {
+  float: left;
+  width: 58px;
+  margin: 0 10px 15px 0;
+  border-color: #1770de;
+  background: #1770de;
+  color: #fff;
+  white-space: nowrap;
+}
+.section-active {
+  border-color: #999;
+  background: #fff;
+  color: #1770de;
+}
+
+
+.filter-seat-list,
+.filter-section {
+  display: none;
+}
+
+
+
+
+/* ISM */
+.map-filter {
+  background: #f2f2f2;
+  border-bottom: 1px solid #eaeaea;
+}
+.ism-filter-form {
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px;
+}
+.label-select-qty {
+  margin-right: 8px;
+}
+.select-qty {
+  width: 145px;
+}
+.select-price {
+  width: 145px;
+  margin-left: 5px;
+}
+.ism-filter-apply-link {
+  font-size: 1.3em;
+}
+.ism-view-filter {
+  display: table;
+  width: 100%;
+  margin: 10px 0;
+}
+.ism-control {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.3em;  
+  padding: 2px 10px;
+}
+.filter-control {
+  border-right: 1px solid #ccc;
+  width: 29px;
+}
+.indicator-control {
+  text-align: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #ccc;
+}
+.view-control {
+  text-align: right;
+  border-left: 1px solid #fff;
+  width: 21px;
+}
+.icon-alt .filter-control,
+.icon-alt .indicator-control,
+.icon-alt .view-control {
+  border: 0;
+}
+.sort-label {
+  margin-right: -5px;
+}
+.sort-wrapper {
+  width: 120px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 -3px -4px 0;
+}
+.filter-control-icon {
+  width: 21px;
+}
+.filter-icon {
+  width: 21px;
+}
+.sections-icon {
+  width: 28px;
+}
+
+.icon-alt .filter-control-link,
+.icon-alt .ism-view-control-link {
+	font-size: 11px;
+	color: #666;
+}
+
+
+/* LOGIN */
+.login-module {
+	background-color: #e7e7e7;
+	padding: 40px 18px 15px;	
+}
+
+.login-title {
+	color: #414141;
+	font-size: 1.5em;
+	text-align: center;	
+	font-weight: normal;	
+}
+
+.login-input {
+	color: #414141;	
+	font-size: 1.5em;	
+	width: 266px;
+	padding: 7px;
+	margin-bottom: 10px;
+	border-color: #999;
+	border-radius: 0;
+}
+
+.login-button {
+	  background: none repeat scroll 0 0 #1770DE;
+    border-color: #1770DE;
+    color: #FFFFFF;	
+	 	text-transform: uppercase;		
+		display: block;
+		margin: 20px 0 15px;
+}
+
+/* CHECKOUT */
+.checkout-view {
+  position: relative;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 166px;
+}
+.checkout-seatview {
+  background-image: url("../img/seatview-checkout.jpg");
+}
+.checkout-mapview {
+  background-image: url("../img/seatmap-checkout.gif");
+}
+.view-thumb-img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.checkout-module {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #d5d5d5;
+}
+.module-details {
+  display: table-cell;
+  vertical-align: middle;
+}
+.module-details + .module-details {
+  width: 115px;
+  padding: 15px 15px 15px 0;
+}
+.title-text,
+.selection-text {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #000;
+}
+.toggle-details-link {
+  padding: 15px 0 15px 30px;
+  margin-right: 5px;
+  display: block;
+  background: url("../img/plus-icon.gif") 10px 18px no-repeat;
+}
+
+.purchase-module {
+  background: #f2f2f2;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGQwZDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #f2f2f2 0%, #d0d0d0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#d0d0d0));
+  background: -webkit-linear-gradient(top,  #f2f2f2 0%,#d0d0d0 100%);
+  background: -o-linear-gradient(top,  #f2f2f2 0%,#d0d0d0 100%);
+  background: -ms-linear-gradient(top,  #f2f2f2 0%,#d0d0d0 100%);
+  background: linear-gradient(to bottom,  #f2f2f2 0%,#d0d0d0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#d0d0d0',GradientType=0 );
+}
+.purchase-module .toggle-details-link {
+  padding: 10px 0 10px 30px;
+  background-position: 10px 13px;
+}
+.purchase-module .place-order {
+  padding: 10px 15px 10px 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.total-title {
+  font-size: 1.5em;
+}
+.order-seats {
+  font-size: 1.3em;
+  color: #666;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.delivery-mobile {
+  background: url("../img/mobile-icon.png") 0 12px no-repeat;
+  background-size: 15px 25px;
+}
+.delivery-mobile .selection-text {
+  margin-left: 25px;
+}
+.payment-amex {
+  background: url("../img/amex-icon.png") 0 12px no-repeat;
+  background-size: 35px 23px;
+}
+.payment-amex .selection-text {
+  margin-left: 45px;
+}
+
+.upsell-module {
+  background: #ededed;
+  padding-top: 15px;
+  position: relative;
+}
+.upsell-title,
+.insurance-title {
+  font-size: 1.5em;
+  padding-left: 13px;
+}
+.upsells-wrapper {
+  height: 94px;
+  margin: 5px 0 15px 0;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.upsells-wrapper.wrapper-active  {
+  height: 109px;
+  overflow: hidden;
+}
+.upsells-img {
+  width: 514px;
+  position: absolute;
+  left: 13px;
+  top: 0;
+  border-bottom: 1px solid #ededed;
+}
+.wrapper-active .upsells-img {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.parking-link-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88px;
+  height: 108px;
+  z-index: 1000;
+}
+.wrapper-active .parking-link-wrapper {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ededed;
+}
+.parking-link {
+  position: absolute;
+  left: 13px;
+  top: -10px;
+  width: 57px;
+  height: 93px;
+}
+.indicator-wrapper {
+  position: absolute;
+  top: 0;
+  left: 55px;
+  display: none;
+}
+.qty-wrapper {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.added-indicator {
+  width: 24px;
+  height: 24px;
+  background: #1770de;
+  border-radius: 12px;
+  margin-left: 25%;
+  margin-top: 25%;
+  position: absolute;
+}
+.indicator-qty {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.parking-upsell {
+  background: #ededed;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #ededed 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ededed 0%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ededed 0%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ededed 0%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ededed 0%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 );
+  padding-bottom: 15px;
+  display: none;
+}
+.parking-upsell p {
+  font-size: 1.3em;
+  padding: 0 13px;
+}
+.add-to-cart {
+  margin-left: 13px;
+}
+.upsell-price {
+  font-size: 1.5em;
+  color: #000;
+  margin-right: 10px;
+}
+
+.insurance-module {
+  padding: 15px 0;
+  border-bottom: 0;
+}
+.insurance-module p {
+  font-size: 1.3em;
+  padding-left: 13px;
+}
+.ins-form {
+  padding-left: 13px;
+}
+.form-group {
+  display: table;
+}
+.form-group + .form-group {
+  margin-top: 10px;
+}
+.radio-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ins-label {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 1.3em;
+  color: #000;
+}
+
+
+
+/* SINGLE PAGE CONSOLIDATION */
+.content {
+  display: none;
+}
+.page-listings .artist-header,
+.page-listings .listings-content {
+  display: block;
+}
+
+
+.listing-poll {
+		background: transparent url("../img/polling75.gif") center center no-repeat;	
+		margin-top: 20px;
+		padding-top: 90px;
+		font-size: 12px;
+		text-align: center;
+}

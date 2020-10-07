@@ -1,0 +1,35 @@
+/* utility styles shared between mobile/desktop */
+
+body {
+  font-size: 62.5%;
+}
+abbr[title] {
+  border-bottom: 0;
+}
+a > img {
+  border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.hide-text {
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+/* used to disable default styling for lists */
+.no-bullet {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
